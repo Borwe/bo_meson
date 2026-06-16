@@ -1,4 +1,6 @@
-project('bo_meson', license: 'mit')
+project('bo_meson',
+  version: '0.1.0'
+  , license: 'BSD-3-Clause')
 
 cp = 'cp'
 sep = '/'
