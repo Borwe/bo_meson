@@ -6,7 +6,7 @@ cp = 'cp'
 sep = '/'
 
 if build_machine.system() == 'windows'
-  cp = 'copy'
+  cp = ['cmd', '/c', 'copy', '/Y']
   sep = '\\'
 endif
 
