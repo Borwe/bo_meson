@@ -11,7 +11,7 @@ and add the following lines to import
 [wrap-git]
 url = https://github.com/Borwe/bo_meson.git
 depth = 1
-revision = HEAD
+revision = v0.1.0
 ```
 
 ### How to use the compile commands migration util
